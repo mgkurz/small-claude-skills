@@ -26,6 +26,18 @@ Unter dem Zug von "kürzer" gewann Kürze gegen Vollständigkeit.
 - Abschnitt "Erst Inhalt sichern, dann kürzen": Sachaussagen auflisten, nur Formulierung straffen, am Ende Vollständigkeit prüfen.
 - Zweites Beispiel mit Gegenbeispiel: falsch gekürzt (Aussage weg) gegen richtig gekürzt (Aussage bleibt).
 
+## Befund vom 2026-06-08: Test 2, Prüfschritt hielt
+
+Zweiter Test der 0.2.0-Fassung, diesmal an inhaltsdichtem technischem Stoff (TLS-Handshake, 12 Sachaussagen mit Zahlen und Caveats), gezielt die Gefahrenzone. Rohbeleg in workbench/tls-handshake_concise-style-test.md.
+
+Methodik: erst die 12 Sachaussagen als Sollwert auflisten, dann aufgeblähte Fassung, dann Skill-Fassung, dann Audit jeder Aussage gegen die Skill-Fassung.
+
+Messung: 360 gegen 165 Wörter, rund 54 Prozent kürzer. Inhaltsverlust: keiner, 12 von 12 erhalten.
+
+Anders als in Test 1 (0.1.0) ging kein Inhalt verloren. Ursache laut Test: Das Auflisten des Sollwerts vor dem Kürzen erzwingt die Vollständigkeit, das bloße Verbot "kürze keinen Inhalt" tat das in Test 1 nicht. Der Prüfschritt aus 0.2.0 wirkt also als angewandte Anweisung.
+
+Einschränkung: Selbsttest mit Vorwarnung. Der Sollwert war vor dem Kürzen bekannt, die Gefahr also präsent. Das zeigt, dass der Schritt greift, wenn man ihn befolgt, nicht, dass er auch ohne vorab notierte Aussagen greift.
+
 ## Offen
 
-Beim nächsten Einsatz prüfen, ob der Prüfschritt in der Praxis hält oder ob er ausdrücklicher als Pflichtschritt formuliert werden muss.
+Härterer Test: Skill-Fassung erzeugen, ohne den Sollwert vorher zu sehen, Audit erst danach. Erst das zeigt, ob der Prüfschritt auch unwissentlich greift oder ob er als ausdrücklicher Pflichtschritt ("immer erst auflisten") zwingender formuliert werden muss. Bis dahin gilt: Anweisung wirkt bei Befolgung, Verhalten unter Nichtbefolgung unbelegt.
