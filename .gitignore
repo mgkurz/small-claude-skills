@@ -1,0 +1,12 @@
+# Betriebssystem / Editor
+.DS_Store
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# Arbeitsordner: Inhalte nicht versionieren, README als Platzhalter behalten
+workbench/*
+!workbench/README.md
+**/workbench/*
+!**/workbench/README.md
