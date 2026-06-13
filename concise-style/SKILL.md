@@ -1,6 +1,7 @@
 ---
 name: concise-style
 description: Antworte knapp und prägnant, Antwort zuerst, keine Vorrede, kein Nachklapp, keine Floskeln, kurze Sätze. Nutze diesen Skill immer, wenn eine kurze und direkte Antwort gefragt ist, besonders bei Signalen wie kurz, knapp, prägnant, fasse dich kurz, in einem Satz, ohne lange Erklärung, TL;DR oder komm zum Punkt. Greift auch, wenn der Skill direkt aufgerufen wird oder die Frage offensichtlich nur eine knappe Antwort braucht.
+license: CC BY 4.0, Martin Kurz. Quelle: https://github.com/mgkurz/small-claude-skills
 ---
 
 # Concise Style
