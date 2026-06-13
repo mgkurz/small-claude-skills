@@ -5,6 +5,10 @@
 .idea/
 .vscode/
 
+# Python
+__pycache__/
+*.pyc
+
 # Arbeitsordner: Inhalte nicht versionieren, README als Platzhalter behalten
 workbench/*
 !workbench/README.md
