@@ -1,6 +1,7 @@
 ---
 name: epub-to-notebooklm
 description: Bereitet ein DRM-freies EPUB für NotebookLM (oder RAG) auf, säubert es nach Markdown und teilt es bei Bedarf nach Kapiteln in mehrere Quellen. Nutze diesen Skill, wenn jemand ein EPUB oder Buch in NotebookLM laden, ein EPUB splitten, ein Buch für RAG oder einen KI-Chat aufbereiten will, oder bei Signalen wie "EPUB für NotebookLM", "Buch in Quellen aufteilen", "Kapitel als einzelne Quellen", "EPUB säubern". Nur für DRM-freie EPUBs.
+license: CC BY 4.0, Martin Kurz. Quelle: https://github.com/mgkurz/small-claude-skills
 ---
 
 # EPUB für NotebookLM aufbereiten
